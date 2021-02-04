@@ -1,0 +1,15 @@
+{
+  "name": "resume-app",
+  "version": "1.0.0",
+  "description": "Mini Resume App",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "salmonte",
+  "license": "ISC"
+}
