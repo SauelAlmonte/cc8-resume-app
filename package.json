@@ -11,5 +11,8 @@
     "resume"
   ],
   "author": "salmonte",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^6.4.0"
+  }
 }

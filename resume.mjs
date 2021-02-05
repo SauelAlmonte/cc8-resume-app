@@ -10,52 +10,65 @@ export const resume = {
         state: "MA"
     },
 
-    education: {
-        schools: {
-            first: "New England Art Institute",
-            second: "Cybersounds Studio",
-            third: "Berklee College of Music",
-            forth: "ULEM MSIMBO"
-        },
+    
+    schools: {
+        from: "New England Art Institute",
+        certificate: "Audio Engineering, Mixing Engineering, & Mastering Engineering"
+        
 
-        certificates: {
-            newEngArtInst: {
-                first: "Audio Engineer",
-                second: "Mixing Engineer",
-                third: "Mastering Engineer"
-            },
+        // {
+        //     name: "Cybersounds Studio",
+        //     certificate: "Ear Trainning, Audio Production, Mic Placement"
+        // },
 
-            cyberStudio: {
-                first: "Ear Trainning",
-                second: "Audio Production",
-                third: "Mic Placement"
-            },
+        // {
+        //     name: "Berklee College of Music",
+        //     certificate: "Audio Engineering Advanced, Mixing Engineering Advanced, Mastering Engineering Advanced"
+        // },
 
-            berkCollMusic: {
-                first: "Audio Engineering Advanced",
-                second: "Mixing Engineering Advanced",
-                third: "Mastering Engineering Advanced"
-            },
+        // {
+        //     name: "ULEM MSIMBO",
+        //     certificate: "MSIMBO Coding"
+        // },
 
-            ulemMsimbo: {
-                first: "MSIMBO Coding"
-            },
-        },
     },
+
+    
     
     interests: {
-        reading: {
-            book1: "How To Buy Diamonds, Author - Fred Cuellar",
-            book2: "The Richest Man In Babylon, Author - ",
-            book3: "Life and Def",
+        book: "How To Buy Diamonds",
+        author: "Fred Cuellar",
+            
+        
+        // {
+        //     book: "The Richest Man In Babylon ",
+        //     author: "George S. Clason"
+        // },
 
-            authors: {
-                book1: "Fred Cuellar",
-                book2: "George S. Clason",
-                book3: "Russell Simmons"
+        // {    
+        //     book: "Life and Def",
+        //     author: "Russell Simmons"
+        // },        
+
+        
+
+        sports: [
+            {
+                team: "Celtics",
+                from: "Boston, MA"
+            },
+            
+            {
+                team: "Red Sox",
+                from: "Boston, MA"
             },
 
-        },
+            {
+                team: "Patriots",
+                from: "New England"
+            },
+
+        ],
 
         music: {
             1: "Hip-Hop",
@@ -65,18 +78,6 @@ export const resume = {
             5: "Merengue"    
         },
 
-        sports: {
-            favoriteTeams: {
-                basketball: "Celtics",
-                baseball: "Red Sox",
-                football: "Patriots"
-            },
-
-        },
-
-
     },
 
 }
-
-console.log(resume.location.city)

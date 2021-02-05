@@ -1,15 +1,19 @@
 import { resume }  from "./resume.mjs";
 
-const { location:{city, state}, name:{fName, lName} } = resume
+// const { location, name:{fName, lName} } = resume;
 
-console.log(`Hello I'm: ${fName, lName}`)
+const { name, location:{city, state} } = resume;
 
-console.log(`----------------`)
+const { schools:{from, certificate} } = resume;
 
-console.log(`in ${location}`)
+console.log(`Hello I'm ${name.fName} ${name.lName}`);
 
-// const { location } = resume
+console.log(`----------------`);
 
-// console.log(name)
+console.log(`I'm from ${city} ${state}.`);
 
-// console.log(location)
+console.log(`----------------`);
+
+console.log(`I have attended ${from}, and became certified in ${certificate}.`);
+
+// console.log(`for ${newEngArtInst.second} and ${berkCollMusic.second}`)
