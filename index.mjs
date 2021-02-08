@@ -16,7 +16,7 @@ const { details : { interests : { reading : { book1, book2, book3 } } } } = resu
 
 // const { details : { interests : { reading : { author1, author2, author3 } } } } = resume
 
-// const { details : { interests : { sports : { basketball, baseball, football } } } } = resume
+const { details : { interests : { sports : { basketball, baseball, football } } } } = resume
 
 // \n makes space in console.log
 
@@ -28,8 +28,10 @@ console.log(`
     Number: ${number}\n
     Location: ${city}, ${state}. \n
     Education: ${school1}, ${school2}, & ${school3} \n
-    Certificates: ${certificate1}, ${certificate2} & ${certificate3} \n
-    Interests: I like reading favorite books, ${book1}, ${book2} & ${book3}. I watch a lot of sports 
+    Certificates: ${certificate1}, ${certificate2} & 
+    ${certificate3} \n
+    Interests: These are some of my favorite books, ${book1}, ${book2} & ${book3}. As for sports? 
+    I root for the home team, ${basketball}, ${baseball} & The ${football}
 `)
 
 
