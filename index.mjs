@@ -14,7 +14,7 @@ const { details : { education : { school2, school3, certificate2, certificate3 }
 
 const { details : { interests : { reading : { book1, book2, book3 } } } } = resume
 
-// const { details : { interests : { reading : { author1, author2, author3 } } } } = resume
+const { details : { interests : { reading : { author1, author2, author3 } } } } = resume
 
 const { details : { interests : { sports : { basketball, baseball, football } } } } = resume
 
@@ -25,13 +25,14 @@ console.log(`
     FName: ${firstName} \n
     LName: ${lastName} \n
     Email: ${email} \n
-    Number: ${number}\n
+    Number: ${number} \n
     Location: ${city}, ${state}. \n
     Education: ${school1}, ${school2}, & ${school3} \n
     Certificates: ${certificate1}, ${certificate2} & 
-    ${certificate3} \n
-    Interests: These are some of my favorite books, ${book1}, ${book2} & ${book3}. As for sports? 
-    I root for the home team, ${basketball}, ${baseball} & The ${football}
+    ${certificate3}. \n
+    Interests: These are some of my favorite books, ${book1} by ${author1}, ${book2} by ${author2} & 
+    ${book3} by ${author3}. \n
+    As for sports? I am from Massachusetts, ${basketball}, ${baseball} & The ${football}.
 `)
 
 
