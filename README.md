@@ -18,3 +18,11 @@
 ---
 
 3. Once any errors were fixed with in the const, or console.log command, I published my app to [npmjs.com](https://www.npmjs.com/~salmonte)
+
+# Code Challenge 9 Resume Update
+
+1. Followed instructions [Code Challenge 9](https://kb.auth.africa/s/share/5175153/2q7r0cshlw4otq1slyks)
+2. Updated my resume App project, which can be pulled by running < npx resume-app >
+3. Tagged resume-app v1.2.0
+4. Pushed to [npm](https://www.npmjs.com/package/resume-app/v/1.2.0)
+5. Everything is working fine
