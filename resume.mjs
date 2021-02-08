@@ -13,13 +13,13 @@ export const resume = {
         },
         "education" : {
             "school1" : "New England Art Institute",
-            "certificate1" : "Audio Engineering, Mixing Engineering, & Mastering Engineering",
+            "certificate1" : "Audio Engineering, Mixing Engineering, & Mastering Engineering.",
 
             "school2" : "Cybersounds Studio",
-            "certificate2" : "Ear Trainning, Audio Production, & Mic Placement",
+            "certificate2" : "Ear Trainning, Audio Production, & Mic Placement.",
 
             "school3" : "Berklee College of Music",
-            "certificate3" : "Audio Engineering Advanced, Mixing Engineering Advanced, & Mastering Engineering Advanced",
+            "certificate3" : "Audio Engineering Advanced, Mixing Engineering Advanced, & Mastering Engineering Advanced.",
         },
         "interests" : {
             "reading" : {

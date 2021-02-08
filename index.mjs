@@ -22,8 +22,8 @@ const { details : { interests : { sports : { basketball, baseball, football } } 
 
 console.log(`
     =======
-    FName: ${firstName} \n
-    LName: ${lastName} \n
+    First Name: ${firstName} \n
+    Last Name: ${lastName} \n
     Email: ${email} \n
     Number: ${number} \n
     Location: ${city}, ${state}. \n
