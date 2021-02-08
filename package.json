@@ -1,11 +1,11 @@
 {
   "name": "resume-app",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Mini Resume App",
   "main": "index.mjs",
   "type": "module",
   "bin": {
-    "resume-app" : "./index.mjs"
+    "resume-app": "./index.mjs"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
