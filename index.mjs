@@ -21,18 +21,42 @@ const { details : { interests : { sports : { basketball, baseball, football } } 
 // \n makes space in console.log
 
 console.log(`
-    =======
-    First Name: ${firstName} \n
-    Last Name: ${lastName} \n
+    \n
+    Hello my name is ${firstName} ${lastName} \n
     Email: ${email} \n
     Number: ${number} \n
     Location: ${city}, ${state}. \n
-    Education: ${school1}, ${school2}, & ${school3} \n
-    Certificates: ${certificate1}, ${certificate2} & 
-    ${certificate3}. \n
-    Interests: These are some of my favorite books, ${book1} by ${author1}, ${book2} by ${author2} & 
-    ${book3} by ${author3}. \n
-    As for sports? I am from Massachusetts, ${basketball}, ${baseball} & The ${football}.
+    ------------------------------------------------------------------------------------------------- 
+
+    -------------------------------------------------------------------------------------------------
+
+    I have received certifications from: \n
+        ${school1} for, ${certificate1} \n
+        ${school2} for, ${certificate2} \n
+        ${school3} for, ${certificate3} \n
+    -------------------------------------------------------------------------------------------------
+
+    -------------------------------------------------------------------------------------------------
+
+    Some of my interests are:
+
+    Reading & Sports
+    
+    Favorite books: 
+    
+        ${book1} by ${author1}, \n
+        ${book2} by ${author2}, \n
+        ${book3} by ${author3}. \n
+
+    As for sports? I am from Massachusetts, 
+    
+        ${basketball}, \n
+        ${baseball}, \n
+        The ${football}!!! \n
+
+    -------------------------------------------------------------------------------------------------
+
+    -------------------------------------------------------------------------------------------------
 `)
 
 
