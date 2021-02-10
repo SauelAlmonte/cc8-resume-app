@@ -1,0 +1,22 @@
+{
+	"variables": [],
+	"info": {
+		"name": "resume api",
+		"_postman_id": "d5fd5716-2b7b-0c4c-dffa-fc25814b87d7",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "resume app",
+			"request": {
+				"url": "",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "learning api with node"
+			},
+			"response": []
+		}
+	]
+}
