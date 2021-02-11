@@ -1,27 +1,24 @@
-import express from 'express'
+import express from 'express';
 
-import { resume } from './resume.mjs'
+import { resume } from './resume.mjs';
 
-const app = express()
+const app = express();
 
-const PORT = 3333
+const PORT = process.env.PORT || 5000;
 
 // route
 
 
 // shortened format
-app.get('/resume', (req, res) => res.send(resume) )
+app.get('/resume', (req, res) => res.send(resume) );
 
-app.get('/resume-ap', (req,res) => {
-    res.send(`Welcome to my resume! <br/>
-    In order to use my API, please run command npx i resume-app <br/>
-    Please visit my /bio endpoint
-    `)
-}),
+app.get('/', (req,res) => {
+    res.send(`Welcome to my resume! Please run command: [ npx i resume-app ] to access my resume. Please visit my /bio endpoint`)
+});
 
 app.listen( PORT, () => {
-    console.log(`My APP is starting on ${PORT}`)
-})
+    console.log(`Hello and thank you for visiting my resume on ${PORT}`)
+});
 
 // id
 // app.get('/id', (req, res) => {

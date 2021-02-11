@@ -1,6 +1,6 @@
 {
   "name": "resume-app",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Mini Resume App",
   "main": "index.mjs",
   "type": "module",
@@ -20,6 +20,10 @@
   ],
   "author": "salmonte",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SauelAlmonte/cc8-resume-app/issues"
+  },
+  "homepage": "https://github.com/SauelAlmonte/cc8-resume-app#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
