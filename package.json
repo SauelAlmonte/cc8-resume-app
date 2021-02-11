@@ -8,7 +8,12 @@
     "resume-app": "./index.mjs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SauelAlmonte/cc8-resume-app.git"
   },
   "keywords": [
     "resume"
