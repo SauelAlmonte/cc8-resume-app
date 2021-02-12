@@ -2,6 +2,8 @@ import express from 'express';
 
 import { resume } from './resume.mjs';
 
+// import { info } from './info'
+
 const app = express();
 
 const PORT = process.env.PORT || 5000;
@@ -15,6 +17,9 @@ app.get('/', (req,res) => {
 
 // shortened format
 app.get('/resume-app', (req, res) => res.send(resume) );
+
+//info
+// app.get('/info', (req, res) => res.send(info) );
 
 //bio
 app.get('/bio', (req,res) => {

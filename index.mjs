@@ -18,6 +18,7 @@ const { details : { interests : { reading : { author1, author2, author3 } } } } 
 
 const { details : { interests : { sports : { basketball, baseball, football } } } } = resume
 
+
 // \n makes space in console.log
 
 console.log(`
