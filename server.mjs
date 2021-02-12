@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 
 
 app.get('/', (req,res) => {
-    res.send(`Welcome to my resume! Please run command: [ npx i resume-app ] to access my resume. Please visit my /bio endpoint`)
+    res.send(`Welcome to my resume! Please run command: [ npx i resume-app ] to access my resume. Please visit my /bio & /resume-app`)
 });
 
 // shortened format
