@@ -89,7 +89,7 @@ export const resume = {
        "fluency": "Native speaker"
       }],
       "interests": [{
-        "reading": "My Favorite Book are",
+        "reading": "My Favorite Books are",
         "keywords": [
             "How To Buy Diamonds by Fred Cuellar",
             "The Richest Man In Babylon by George S. Clason",
