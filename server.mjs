@@ -18,7 +18,7 @@ app.get('/resume-app', (req, res) => res.send(resume) );
 
 //bio
 app.get('/bio', (req,res) => {
-    res.send(`My name is Sauel Almonte, I am from Bostm MA. Currently  I'm in the last 2 months of an awesome coding course. A coding (MSIMBO Coding) course that is provided by ULEM (Urban League of Eastern MA).
+    res.send(`My name is Sauel Almonte, I am from Bostm MA. Currently  I'm in the last 2 months of an awesome coding course. MSIMBO Coding is a program provided by ULEM (Urban League of Eastern MA).
     I am entrepreneur, hard worker and love life.`)
 })
 
