@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 
 
 app.get('/', (req,res) => {
-    res.send(`Welcome to my resume! Please run command: [ npx i resume-app ] to access my resume. Please visit my /bio & /resume-app`)
+    res.send(`Welcome to my resume! Please run command: [ npx i resume-app ] to access my resume in your terminal (iTerm for Mac users & CMNDER for PC users). Please visit my /bio & /resume-app`)
 });
 
 // shortened format
