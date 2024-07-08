@@ -25,7 +25,8 @@
   },
   "homepage": "https://github.com/SauelAlmonte/cc8-resume-app#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "resume-app": "^1.2.4"
   },
   "engines": {
     "node": "14.15.3",
